@@ -9,93 +9,116 @@
 
 	<!--reset css style to this html-->
 	<link rel="stylesheet"	type="text/css" href="assets/css/reset.css">
-	
-	  <!--LINKING HTML TO CSS FILE8-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-	<!--Linking to boostrap viewport-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Linking the css style to this html-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!--LINKING HTML TO Bootstrap CSS FILE8-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 </head>
 
 <body>
-	
-	<!--nav bar-->
-	<nav class="navbar navbar-light bg-light justify-content-between" style="background-color:#ececec">
-  		<h1 class="navbar-brand" href="#" style="color: #ffffff; background-color:#40aaa5">Perla Ballesteros</h1>
 
-	  	<ul class="nav justify-content-end">
-  			<li class="nav-item">
-    			<a class="nav-link disabled" href="#">About</a>
-  			</li>
-  			<li class="nav-item">
-   	 			<a class="nav-link disabled" href="#">Portfolio</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link disabled" href="#">Contact</a>
-  			</li>
-		</ul>
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
 
+		<div class="container nav-align-left">
+  			<h4 id="navname">Perla E. Ballesteros</h4>
+  		</div>
+
+  		<div class="navbar-align-right">
+  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto navbar-right">
+      			
+
+      				<li class="nav-item">
+        				<a class="nav-link disabled" href="index.html">About</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link disabled" href="portfolio.html">Portfolio</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link disabled" href="contact.html">Contact</a>
+      				</li>
+
+    			</ul>
+  			</div>
+  		</div>
 	</nav>
-	
 
+
+<!--About me, CONNECT WITH ME, and footer -->
 
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
-				<h4 id="about_meheading">About Me</h4>
+
+			<div class="col-md-8" id="aboutme">
+				<div class="page-header">
+					<h4 id="aboutmeheading">About Me</h4>
+				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-md-12">
 					 	<img id="bio-image" src="assets/images/perlaballesteros.jpg" alt="PerlaEB">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-md-12">
 						<!--About Me Paragraphs-->
 						<p id="first_paragraph">I was born in Mexico and moved to San Luis, Arizona when I was in 5th grade. Even though it took me a few tears, I made new friends, learned a new language, and solidified my love for math before the year was over. Math bridged the language barrier for me during my early years in school. My fondness of math carried me through college level math classes in high school and taking an introduction to engineering class my senior year. As a result of these, I decided to pursue an engineering degree at the University of Arizona. </p>
 
 						<p id="second_paragraph">I was excited to live through the college experience that many talked about. I had never left home before coming to college, but despite my inexperience, I knew I would be ok--and so I was. With its ups and downs college provided many learning experiences for which I am thankful, and I finally graduated in May 2016 with a B.S. in Biosystems Engineering.</p>
 
-						<p id="third_paragraph">During my free time, I enjoy reading, hiking, cooking, meditating, dancing, and going on roadtrips.</p>
-					</div>	
-				</div>
-			</div>
-		
-			<div class="col-lg-6">
-				<div class="row">
-					<div class="col-lg-12">
-						<h4 id="connect_heading">Connect with Me</h4>
+						<p id="third_paragraph">During my free time, I enjoy reading, hiking, cooking, meditating, dancing, and going on roadtrips.</p>	
 					</div>
 				</div>	
-				<div class="row">
-					<div class="col-lg-12">
-						<!--GitHub icon image that will open in a new tab-->
-						<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank">
-							<img alt="githubimage" id="githubicon" src="assets/images/githubicon.png">
-						</a>
-				
-						<!--linkedin icon image that will open in a new tab-->
-						<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank">
-							<img alt="linkedinimage" id="linkeinicon" src="assets/images/linkedinicon.png">
-						</a>
-	
-						<!--stackoverflow icon image that will open in a new tab-->
-						<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank">
-							<img alt="stackiconimage" id="stackicon" src="assets/images/stackoverflow.jpg">
-						</a>
+			</div>
+
+				<div class="col-md-1">
+					<div class="col-md-12">
 					</div>
 				</div>
+
+				<div class="col-md-3" id="connectwme">
+					<div class="row">
+						
+						<div class="col-md-12">
+							<h4>Connect with Me</h4>
+						</div>
+
+
+						<div class="row">
+								<div class="col-md-4">
+								<!--GitHub icon image that will open in a new tab-->
+									<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank">
+										<img alt="githubimage" id="githubicon" src="assets/images/githubicon.png">
+									</a>
+								</div>
+								<div class="col-sm-4">
+									<!--linkedin icon image that will open in a new tab-->
+									<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank">
+										<img alt="linkedinimage" id="linkeinicon" src="assets/images/linkedinicon.png">
+									</a>
+								</div>
+								<div class="col-sm-4">
+									<!--stackoverflow icon image that will open in a new tab-->
+									<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank">
+										<img alt="stackiconimage" id="stackicon" src="assets/images/stackoverflow.jpg">
+									</a>
+								</div>
+					</div>
+				</div>	
 			</div>	
 		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<footer>
-					<h5>@copyright2017 Perla E. Ballesteros</h5>	
+
+
+		<div class="row" id="footer">
+			<div class="col-md-12">
+				<footer> 
+					<h5>@copyright2017 Perla E. Ballesteros</h5>
 				</footer>
 			</div>
-		</div>	
+
 	</div>
-
-
 </body>
 </html>
