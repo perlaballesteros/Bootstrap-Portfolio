@@ -16,7 +16,7 @@ h5{
 	font-family: "georgia", times,"times new roman", serif;
 	}
 
-#aboutme,#portfolio{
+#aboutme,#portfolio,#contact{
 	background-color:#ffffff;
 	border:1px solid #e7e7e7;
 	margin-top:30px;
@@ -92,6 +92,42 @@ h4{
 	position:relative;
 	margin-bottom:5px;	
 }
+
+form{
+	margin-left:20px;
+}
+label{
+	display:block;
+	font-size: 20px;
+	margin-bottom:5px;
+	margin-top:2.5px;
+
+}
+input{
+	width:100%;
+}
+
+
+#message{
+	height:150px;
+	width:100%;
+}
+
+#subbutton{
+	color:#ffffff;
+	font-size: 20px;
+	background-color:#40aaa5;
+	border:none;
+	padding:10px 60px;
+	width:200px;
+
+}
+
+#subbutton:hover{
+	color:#40aaa5;
+	background-color:#ffffff;
+}
+
 
 
 
