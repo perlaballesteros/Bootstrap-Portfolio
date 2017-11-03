@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 
@@ -13,6 +13,13 @@
 	<!--Linking the css style to this html-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
 	<!--LINKING HTML TO Bootstrap CSS FILE8-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -21,10 +28,10 @@
 <body>
 
 	<!--NAVBAR-->
-	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+	<nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ffffff;">
 
 		<div class="container nav-align-left">
-  			<h4 id="navname">Perla E. Ballesteros</h4>
+  			<h1 id="navname">Perla E. Ballesteros</h1>
   		</div>
 
   		<div class="navbar-align-right">
@@ -50,21 +57,18 @@
 
 <!--About me, CONNECT WITH ME, and footer -->
 
-	<div class="container">
+	<div class="container" id="wrapper">
 		<div class="row">
-
 			<div class="col-md-8" id="aboutme">
 				<div class="page-header">
-					<h4 id="aboutmeheading">About Me</h4>
+					<h3 id="aboutmeheading">About Me</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+					 	<img id="bio-image" src="assets/images/perlaballesteros.jpg" alt="PerlaEB">
+
+					 	<div id="dividerbio"></div>
 					
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-					 	<center><img id="bio-image" src="assets/images/perlaballesteros.jpg" alt="PerlaEB"></center>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
 						<!--About Me Paragraphs-->
 						<p id="first_paragraph">I was born in Mexico and moved to San Luis, Arizona when I was in 5th grade. Even though it took me a few tears, I made new friends, learned a new language, and solidified my love for math before the year was over. Math bridged the language barrier for me during my early years in school. My fondness of math carried me through college level math classes in high school and taking an introduction to engineering class my senior year. As a result of these, I decided to pursue an engineering degree at the University of Arizona. </p>
 
@@ -76,48 +80,36 @@
 			</div>
 
 
-			<!--EMPTY COLUMN TO SEPARATE ABOUT ME AND CONNECT WITH ME-->
-			<div class="col-md-1">
-				<div class="row">
-					<div class="col-md-12">
-					</div>
-				</div>
-			</div>
-
 			<!--CARD CONNECT WITH ME-->
-			<div class="col-md-3" id="connectwme">
+			<div class="col-md-4" id="connectwme">
 				<div class="card text-center" style="width: 20rem;">
   					<div class="card-body">
-    					<h4 class="card-title"id="connectheading">Connect with Me</h4>
+    					<h3 class="card-title"id="connectheading">Connect with Me</h3>
+    					<div id="connectdiv"></div>
     					<!--GitHub icon image that will open in a new tab-->
 						<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank">	
-							<img alt="githubimage" id="githubicon" src="assets/images/githubicon.png">
+							<img alt="githubimage" class="icon" src="assets/images/githubicon.png">
 						</a>
 						<!--linkedin icon image that will open in a new tab-->
 						<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank">
-							<img alt="linkedinimage" id="linkeinicon" src="assets/images/linkedinicon.png">
+							<img alt="linkedinimage" class="icon" src="assets/images/linkedinicon.png">
 						</a>
 						<!--stackoverflow icon image that will open in a new tab-->
 						<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank">
-							<img alt="stackiconimage" id="stackicon" src="assets/images/stackoverflow.jpg">
+							<img alt="stackiconimage" class="icon" src="assets/images/stackoverflow.jpg">
 						</a>
   					</div>
 				</div>
 			</div>	
 		</div>
-	
+	</div>
 
-	<div class="row" id="footer">
-		<div class="col-md-12">
+
+
+	<!--footer-->
+	<footer  id="footer">
 			<h5>© Copyright Perla E. Ballesteros</h5>
-		</div>
-	</div>	
-</div>
+	</footer>
 </body>
-
-
-
-
-
 
 </html>
